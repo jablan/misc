@@ -61,7 +61,7 @@ end
 if $0 == __FILE__
 #  Jabber::debug = true
   logger = Log4r::Logger.new 'test'
-  o = Log4r::XMPPOutputter.new 'to', :jid => 'jabber.outputter@gmail.com/Testing', :pwd => 'joutputter', :recipient => 'jablan@gmail.com'
+  o = Log4r::XMPPOutputter.new 'to', :jid => 'jabber.outputter@gmail.com/Testing', :pwd => 'j123123', :recipient => 'j123123@gmail.com'
 #  mylog = Logger.new 'mylog'
 #  mylog.outputters = Outputter.stdout
 #
