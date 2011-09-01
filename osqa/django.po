@@ -560,7 +560,7 @@ msgstr "pitao"
 #: forum/actions/node.py:32
 #, python-format
 msgid "%(user)s asked %(question)s"
-msgstr ""
+msgstr "%(user)s postavio pitanje %(question)s"
 
 #: forum/actions/node.py:38 forum/templatetags/node_tags.py:235
 msgid "answered"
@@ -797,7 +797,7 @@ msgstr ""
 
 #: forum/actions/user.py:138
 msgid "was awarded"
-msgstr ""
+msgstr "je nagrađen"
 
 #: forum/actions/user.py:166
 #, python-format
@@ -815,28 +815,28 @@ msgstr ""
 
 #: forum/actions/user.py:190
 msgid "were"
-msgstr ""
+msgstr "su"
 
 #: forum/actions/user.py:190
 msgid "was"
-msgstr ""
+msgstr "je"
 
 #: forum/actions/user.py:195
 msgid "suspended"
-msgstr ""
+msgstr "suspendovan"
 
 #: forum/actions/user.py:213
 msgid "Your suspension has been removed."
-msgstr ""
+msgstr "Vaša suspenzija je skinuta."
 
 #: forum/actions/user.py:217
 #, python-format
 msgid "for %s days"
-msgstr ""
+msgstr "na %s dana"
 
 #: forum/actions/user.py:219
 msgid "indefinetely"
-msgstr ""
+msgstr "neograničeno"
 
 #: forum/actions/user.py:221
 #, python-format
@@ -845,7 +845,7 @@ msgstr ""
 
 #: forum/actions/user.py:223 forum/views/users.py:240
 msgid "Bad behaviour"
-msgstr ""
+msgstr "Loše ponašanje"
 
 #: forum/forms/admin.py:16
 msgid "Please input at least one ip address"
@@ -3605,20 +3605,21 @@ msgstr ""
 #: forum/skins/default/templates/sidebar/recent_tags.html:11
 #, python-format
 msgid "see questions tagged '%(tagname)s'"
-msgstr ""
+msgstr "vidi pitanja sa oznakom '%(tagname)s'"
 
 #: forum/skins/default/templates/question.html:137
 #, python-format
 msgid ""
 "The question has been closed for the following reason \"%(close_reason)s\" by"
 msgstr ""
+"Pitanje je zatvoreno iz sledećeg razloga: \"%(close_reason)s\" od strane"
 
 #: forum/skins/default/templates/question.html:148
 #, python-format
 msgid "One Answer:"
 msgid_plural "%(counter)s Answers:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Jedan odgovor:"
+msgstr[1] "%(counter)s odgovora:"
 
 #: forum/skins/default/templates/question.html:198
 msgid "Your answer"
@@ -3630,20 +3631,21 @@ msgstr "Budite prvi koji će odgovoriti na ovo pitanje!"
 
 #: forum/skins/default/templates/question.html:207
 msgid "You can answer anonymously and then login."
-msgstr ""
+msgstr "Možete ostaviti odgovor anonimno, pa se potom ulogovati."
 
 #: forum/skins/default/templates/question.html:211
 msgid "Answer your own question only to give an answer."
-msgstr ""
+msgstr "Odgovorite na sopstveno pitanje samo da biste dali odgovor."
 
 #: forum/skins/default/templates/question.html:213
 msgid "Please only give an answer, no discussions."
-msgstr ""
+msgstr "Molimo samo dajte odgovor, bez diskutovanja."
 
 #: forum/skins/default/templates/question.html:216
 msgid ""
 "Remember, your answer will not be published until you validate your email."
 msgstr ""
+"Zapamtite, vaš odgovor neće biti objavljen dok ne validirate svoju email adresu."
 
 #: forum/skins/default/templates/question.html:264
 msgid "Login/Signup to Post Your Answer"
@@ -3666,13 +3668,13 @@ msgstr "Oznake pitanja"
 #: forum/skins/default/templates/tags.html:45
 #: forum/skins/default/templates/question_list/item.html:31
 msgid "see questions tagged"
-msgstr "vidi pitanja označena"
+msgstr "vidi pitanja označena sa"
 
 #: forum/skins/default/templates/question.html:297
 #: forum/skins/default/templates/question_summary_list_roll.html:52
 #: forum/skins/default/templates/tags.html:45
 msgid "using tags"
-msgstr ""
+msgstr "koristeći oznake"
 
 #: forum/skins/default/templates/question.html:302
 msgid "question asked"
@@ -3710,7 +3712,7 @@ msgstr "Šta su oznake"
 #: forum/skins/default/templates/question_retag.html:5
 #: forum/skins/default/templates/question_retag.html:40
 msgid "Change tags"
-msgstr ""
+msgstr "Izmeni oznake"
 
 #: forum/skins/default/templates/question_retag.html:71
 msgid "Why use and modify tags?"
@@ -5331,7 +5333,7 @@ msgstr "Ignorisane oznake"
 #: forum/skins/default/templates/question_list/tag_selector.html:36
 #, python-format
 msgid "remove '%(tag_name)s' from the list of ignored tags"
-msgstr ""
+msgstr "skloni '%(tag_name)s' iz liste ignorisanih oznaka"
 
 #: forum/skins/default/templates/question_list/tag_selector.html:46
 msgid "keep ignored questions hidden"
@@ -5392,6 +5394,8 @@ msgid ""
 "to add a line break simply add two spaces to where you would like the new "
 "line to be."
 msgstr ""
+"da prelomite liniju jednostavno napišite dva razmaka tamo gde biste "
+"da je prelomite."
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:29
 msgid "basic HTML tags are also supported"
@@ -5828,7 +5832,7 @@ msgstr "glas protiv"
 
 #: forum/templatetags/extra_tags.py:79
 msgid "reputation points"
-msgstr ""
+msgstr "bodova reputacije"
 
 #: forum/templatetags/extra_tags.py:104
 #, python-format
@@ -6771,171 +6775,171 @@ msgstr ""
 
 #: forum_modules/default_badges/badges.py:24
 msgid "Popular Question"
-msgstr ""
+msgstr "Popularno pitanje"
 
 #: forum_modules/default_badges/badges.py:30
 msgid "Notable Question"
-msgstr ""
+msgstr "Viđeno pitanje"
 
 #: forum_modules/default_badges/badges.py:35
 msgid "Famous Question"
-msgstr ""
+msgstr "Čuveno pitanje"
 
 #: forum_modules/default_badges/badges.py:54
 #, python-format
 msgid "Question voted up %s times"
-msgstr ""
+msgstr "Pitanje dobilo %s glasova za"
 
 #: forum_modules/default_badges/badges.py:58
 msgid "Nice Question"
-msgstr ""
+msgstr "Fino pitanje"
 
 #: forum_modules/default_badges/badges.py:63
 msgid "Good Question"
-msgstr ""
+msgstr "Dobro pitanje"
 
 #: forum_modules/default_badges/badges.py:68
 msgid "Great Question"
-msgstr ""
+msgstr "Sjajno pitanje"
 
 #: forum_modules/default_badges/badges.py:77
 #, python-format
 msgid "Answer voted up %s times"
-msgstr ""
+msgstr "Odgovor dobio %s glasova za"
 
 #: forum_modules/default_badges/badges.py:81
 msgid "Nice Answer"
-msgstr ""
+msgstr "Fin odgovor"
 
 #: forum_modules/default_badges/badges.py:86
 msgid "Good Answer"
-msgstr ""
+msgstr "Dobar odgovor"
 
 #: forum_modules/default_badges/badges.py:91
 msgid "Great Answer"
-msgstr ""
+msgstr "Sjajan odgovor"
 
 #: forum_modules/default_badges/badges.py:100
 #, python-format
 msgid "Question favorited by %s users"
-msgstr ""
+msgstr "Pitanje omiljeno kod %s korisnika"
 
 #: forum_modules/default_badges/badges.py:108
 msgid "Favorite Question"
-msgstr ""
+msgstr "Omiljeno pitanje"
 
 #: forum_modules/default_badges/badges.py:113
 msgid "Stellar Question"
-msgstr ""
+msgstr "Svetsko pitanje"
 
 #: forum_modules/default_badges/badges.py:119
 msgid "Disciplined"
-msgstr ""
+msgstr "Disciplinovan"
 
 #: forum_modules/default_badges/badges.py:120
 #, python-format
 msgid "Deleted own post with score of %s or higher"
-msgstr ""
+msgstr "Obrisao sopstveni post sa ocenom %s ili većom"
 
 #: forum_modules/default_badges/badges.py:128
 msgid "Peer Pressure"
-msgstr ""
+msgstr "Pritisak kolega"
 
 #: forum_modules/default_badges/badges.py:129
 #, python-format
 msgid "Deleted own post with score of %s or lower"
-msgstr ""
+msgstr "Obrisan sopstveni post sa ocenom %s ili manjom"
 
 #: forum_modules/default_badges/badges.py:139
 msgid "Critic"
-msgstr ""
+msgstr "Kritičar"
 
 #: forum_modules/default_badges/badges.py:140
 msgid "First down vote"
-msgstr ""
+msgstr "Prvi glas protiv"
 
 #: forum_modules/default_badges/badges.py:150
 msgid "Supporter"
-msgstr ""
+msgstr "Navijač"
 
 #: forum_modules/default_badges/badges.py:151
 msgid "First up vote"
-msgstr ""
+msgstr "Prvi glas za"
 
 #: forum_modules/default_badges/badges.py:168
 msgid "Citizen Patrol"
-msgstr ""
+msgstr "Građanska patrola"
 
 #: forum_modules/default_badges/badges.py:169
 msgid "First flagged post"
-msgstr ""
+msgstr "Prvi prijavljen post"
 
 #: forum_modules/default_badges/badges.py:173
 msgid "Organizer"
-msgstr ""
+msgstr "Organizator"
 
 #: forum_modules/default_badges/badges.py:174
 msgid "First retag"
-msgstr ""
+msgstr "Prva izmena oznaka"
 
 #: forum_modules/default_badges/badges.py:178
 msgid "Editor"
-msgstr ""
+msgstr "Urednik"
 
 #: forum_modules/default_badges/badges.py:179
 msgid "First edit"
-msgstr ""
+msgstr "Prvo uređivanje"
 
 #: forum_modules/default_badges/badges.py:183
 msgid "Scholar"
-msgstr ""
+msgstr "Učenjak"
 
 #: forum_modules/default_badges/badges.py:184
 msgid "First accepted answer on your own question"
-msgstr ""
+msgstr "Prvi prihvaćen odgovor na sopstveno pitanje"
 
 #: forum_modules/default_badges/badges.py:188
 msgid "Cleanup"
-msgstr ""
+msgstr "Čistač"
 
 #: forum_modules/default_badges/badges.py:189
 msgid "First rollback"
-msgstr ""
+msgstr "Prvo vraćanje stare verzije"
 
 #: forum_modules/default_badges/badges.py:195
 msgid "Autobiographer"
-msgstr ""
+msgstr "Autobiograf"
 
 #: forum_modules/default_badges/badges.py:196
 msgid "Completed all user profile fields"
-msgstr ""
+msgstr "Popunio sva polja iz korisničkog profila"
 
 #: forum_modules/default_badges/badges.py:209
 msgid "Civic Duty"
-msgstr ""
+msgstr "Građanska dužnost"
 
 #: forum_modules/default_badges/badges.py:210
 #, python-format
 msgid "Voted %s times"
-msgstr ""
+msgstr "Glasao %s puta"
 
 #: forum_modules/default_badges/badges.py:220
 msgid "Pundit"
-msgstr ""
+msgstr "Ekspert"
 
 #: forum_modules/default_badges/badges.py:221
 #, python-format
 msgid "Left %s comments"
-msgstr ""
+msgstr "Ostavio %s komentara"
 
 #: forum_modules/default_badges/badges.py:231
 msgid "Self Learner"
-msgstr ""
+msgstr "Samouk"
 
 #: forum_modules/default_badges/badges.py:232
 #, python-format
 msgid "Answered your own question with at least %s up votes"
-msgstr ""
+msgstr "Odgovor na sopstveno pitanje dobio najmanje %s glasova za"
 
 #: forum_modules/default_badges/badges.py:244
 msgid "Strunk & White"
@@ -6948,32 +6952,32 @@ msgstr ""
 
 #: forum_modules/default_badges/badges.py:255
 msgid "Student"
-msgstr ""
+msgstr "Učenik"
 
 #: forum_modules/default_badges/badges.py:256
 msgid "Asked first question with at least one up vote"
-msgstr ""
+msgstr "Postavio prvo pitanje sa najmanje jednim glasom za"
 
 #: forum_modules/default_badges/badges.py:267
 msgid "Teacher"
-msgstr ""
+msgstr "Nastavnik"
 
 #: forum_modules/default_badges/badges.py:268
 msgid "Answered first question with at least one up vote"
-msgstr ""
+msgstr "Postavio prvi odgovor sa najmanje jednim glasom za"
 
 #: forum_modules/default_badges/badges.py:280
 msgid "Enlightened"
-msgstr ""
+msgstr "Prosvetljen"
 
 #: forum_modules/default_badges/badges.py:281
 #, python-format
 msgid "First answer was accepted with at least %s up votes"
-msgstr ""
+msgstr "Prvi odgovor je prihvaćen sa najmanje %s glasova za"
 
 #: forum_modules/default_badges/badges.py:292
 msgid "Guru"
-msgstr ""
+msgstr "Guru"
 
 #: forum_modules/default_badges/badges.py:293
 #, python-format
@@ -6993,12 +6997,12 @@ msgstr ""
 
 #: forum_modules/default_badges/badges.py:317
 msgid "Taxonomist"
-msgstr ""
+msgstr "Imenitelj"
 
 #: forum_modules/default_badges/badges.py:318
 #, python-format
 msgid "Created a tag used by %s questions"
-msgstr ""
+msgstr "Napravio oznaku koju koristi %s pitanja"
 
 #: forum_modules/default_badges/settings.py:6
 msgid "Popular Question views"
